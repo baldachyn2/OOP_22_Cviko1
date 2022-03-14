@@ -10,7 +10,8 @@ public class App {
             vypis(i); //App.vypis(i)
         }
     }
-    public static void vypis(int a){
-        System.out.println(a);
+    public static void vypis(int a)
+    {
+        System.out.println(String.format("Funkcia bola zavolana %d. krat",a+1));
     }
 }
